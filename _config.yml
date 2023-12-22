@@ -141,9 +141,9 @@ googlefonts:
 
 
 # Theme and colors
-chulapa-skin: graymor
-  # highlight     : "default" # default["default"]
-  skin         :  # Optional predefined skins
+chulapa-skin: 
+  highlight     : "default" # default["default"]
+  skin          :  graymor # Optional predefined skins
   autothemer    :  false # Bool: Use autotheming
   vars          :    
     primary     : "#54565A"
