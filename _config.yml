@@ -137,12 +137,12 @@ footer:
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
 googlefonts:
-  - url :  'https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300&family=Oswald:wght@700&display=swap'
+# - url :  'https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300&family=Oswald:wght@700&display=swap'
 
 
 # Theme and colors
 chulapa-skin: 
-  skin          :  graymor # Optional predefined skins
+  skin          :  "graymor"
   autothemer    :   # Bool: Use autotheming
   vars          :    
     primary     : "#54565A"
