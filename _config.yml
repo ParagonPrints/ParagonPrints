@@ -81,7 +81,7 @@ algolia:
     
 comments:
   provider: cusdis  #Enable comments via Disqus, giscus or Cactus.chat
-  cusdis_app_id="869b6b98-c149-405b-a9bc-ba940c4a6396"
+  cusdis_app_id:  data-app-id="869b6b98-c149-405b-a9bc-ba940c4a6396"
   # disqus_shortname: #Your site id : check your address https://{{ disqus.shortname }}.disqus.com/admin/
   # cactus_shortname: #Your site id as registered with Cactus.chat
   
