@@ -142,9 +142,8 @@ googlefonts:
 
 # Theme and colors
 chulapa-skin: 
-  highlight     : "default" # default["default"]
   skin          :  graymor # Optional predefined skins
-  autothemer    :  false # Bool: Use autotheming
+  autothemer    :   # Bool: Use autotheming
   vars          :    
     primary     : "#54565A"
     secondary   : "#5D8C7F"
