@@ -9,7 +9,7 @@ Paragon Collective is dedicated to providing innovative programs and services in
 ## Getting Started
 
 To view the website, simply visit the GitHub Pages URL:
-- [Paragon Collective](https://paragonprints.github.io/paragonprints/)
+- [Paragon Collective](https://www.paragoncollective.org)
 
 ## File Structure
 
