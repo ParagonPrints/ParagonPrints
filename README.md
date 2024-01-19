@@ -40,4 +40,3 @@ Special thanks to our contributors and supporters who help make Paragon Collecti
 
 ---
 
-**Note:** Replace `<username>` and `<repository>` with your GitHub username and repository name.
