@@ -12,7 +12,7 @@ body {
 
 /* Navigation Bar Styles */
 .navbar {
-  background-color: #3498db;
+  background-color: #545659;
   color: #fff;
   padding: 10px;
 }
@@ -43,7 +43,7 @@ body {
 
 .block {
   flex: 1;
-  background-color: #ecf0f1;
+  background-color: #BCCDC2;
   padding: 20px;
   margin: 0 10px;
 }
