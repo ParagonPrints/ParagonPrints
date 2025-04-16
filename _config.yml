@@ -1,0 +1,98 @@
+# Temporarily override defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "under_construction"
+
+# Exclude other content during construction
+exclude:
+  - _posts
+  - _pages
+  - _sass
+  - assets/js
+
+# # === Site Settings ===
+# title: Paragon Collective
+# description: >-
+#   Empowering innovation through STEM education, 3D design, and accessible manufacturing solutions.
+# url: "https://paragoncollective.org" # Your custom domain
+# repository: your-github-username/your-repo-name # Replace with your GitHub repo
+# timezone: America/New_York # Update to your timezone
+
+# # === Minimal Mistakes Theme Settings ===
+# theme: minimal-mistakes-jekyll
+# minimal_mistakes:
+#   skin: "air" # Theme skin (options: default, air, dark, neon, mint)
+#   search: true # Enable search
+#   search_provider: "search" # Simple on-site search
+#   # Customize navigation
+#   navigation:
+#     main:
+#       - name: "Home"
+#         url: /
+#       - name: "Services"
+#         url: /services/
+#       - name: "Portfolio"
+#         url: /portfolio/
+#       - name: "Blog"
+#         url: /blog/
+#       - name: "Contact"
+#         url: /contact/
+#   # Author profile (appears in sidebar/footer)
+#   author:
+#     name: "Paragon Collective Team"
+#     avatar: "/assets/images/logo.png" # Path to your logo
+#     bio: "Innovators in STEM education and advanced manufacturing"
+#     links:
+#       - label: "Email"
+#         icon: "fas fa-envelope"
+#         url: "mailto:tristan@paragoncollective.org"
+# #      - label: "GitHub"
+# #        icon: "fab fa-github"
+# #        url: "https://github.com/your-org"
+# #      - label: "LinkedIn"
+# #        icon: "fab fa-linkedin"
+# #        url: "https://linkedin.com/company/paragon-collective"
+
+# # === Plugins ===
+# plugins:
+#   - jekyll-feed # RSS feed
+#   - jekyll-seo-tag # SEO optimization
+#   - jekyll-sitemap # Sitemap generation
+
+# # === Defaults ===
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: "single"
+#       author_profile: false
+#       comments: false
+#       share: true
+
+# # === Customization ===
+# # Google Analytics (replace with your ID)
+# google_analytics: "G-17PDTV5FB7"
+
+# # Newsletter Form (Formspree example)
+# #newsletter:
+# #  action: "https://formspree.io/f/your-form-id"
+# #  hidden_input: "subscribe"
+# #  button_text: "Notify Me About Buildbox"
+
+# # === Extras ===
+# # Social Media Icons (matches author.links)
+# # social:
+# #  - icon: "fab fa-twitter"
+# #    url: "https://twitter.com/paragoncollect"
+# #  - icon: "fab fa-instagram"
+# #    url: "https://instagram.com/paragoncollect"
+
+# # === Build Settings ===
+# markdown: kramdown
+# kramdown:
+#   syntax_highlighter: rouge
+#   syntax_highlighter_opts:
+#     css_class: highlight

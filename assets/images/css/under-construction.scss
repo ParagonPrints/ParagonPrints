@@ -1,0 +1,112 @@
+:root {
+    --primary: #5E8C7B;
+    --secondary: #C7D9CC;
+    --accent: #E88C6D;
+}
+
+body {
+    background: var(--secondary);
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--primary);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.construction-emoji {
+    font-size: 4rem;
+    margin: 2rem 0;
+    animation: bounce 2s infinite;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.tool {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transform: rotate(5deg);
+    animation: tools-float 3s ease-in-out infinite;
+}
+
+.tool:nth-child(even) {
+    transform: rotate(-5deg);
+    animation-delay: 0.5s;
+}
+
+.countdown {
+    background: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 2rem auto;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes tools-float {
+    0%, 100% { transform: translateY(0) rotate(5deg); }
+    50% { transform: translateY(-10px) rotate(7deg); }
+}
+
+.newsletter {
+    margin: 2rem 0;
+}
+
+input[type="email"] {
+    padding: 0.8rem;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.floating-bot {
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
