@@ -16,9 +16,26 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-}
+    max-width: 800px; /* Adjust this value to your desired maximum content width */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* Add some padding around the content */
+  }
+  
+  /* Responsive adjustments using media queries */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
 
 h1 {
     color: var(--primary);

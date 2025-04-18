@@ -1,16 +1,21 @@
 # Temporarily override defaults
 defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "under_construction"
+- scope:
+    path: ""
+  values:
+    layout: "under_construction"
+plugins:
+  - jekyll-sass-converter
+
+sass:
+  style: compressed # Or any other Sass output style you prefer
 
 # Exclude other content during construction
 exclude:
-  - _posts
-  - _pages
-  - _sass
-  - assets/js
+- _posts
+- _pages
+- _sass
+- assets/js
 
 # # === Site Settings ===
 # title: Paragon Collective
@@ -60,7 +65,7 @@ exclude:
 #   - jekyll-feed # RSS feed
 #   - jekyll-seo-tag # SEO optimization
 #   - jekyll-sitemap # Sitemap generation
-
+#   - jekyll-include-cache
 # # === Defaults ===
 # defaults:
 #   - scope:
